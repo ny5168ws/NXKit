@@ -1,0 +1,22 @@
+{
+  "name": "HSPodLib",
+  "version": "0.1.0",
+  "summary": "A short description of HSPodLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/shuang wang/HSPodLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "shuang wang": "ny5168@163.com"
+  },
+  "source": {
+    "git": "https://github.com/shuang wang/HSPodLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "HSPodLib/Classes/**/*"
+}

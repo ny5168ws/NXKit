@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+HSPodLib in Pods, no dependencies
+Pods-HSPodLib_Tests in Pods, depends on:
+HSPodLib in Pods (explicit)

@@ -1,0 +1,16 @@
+PODS:
+  - HSPodLib (0.1.0)
+
+DEPENDENCIES:
+  - HSPodLib (from `../`)
+
+EXTERNAL SOURCES:
+  HSPodLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HSPodLib: f4d0d7b054495827c03982f565b44e4d0f43d93e
+
+PODFILE CHECKSUM: ac1b3e2686306e27c033c5df296bdab33fc53645
+
+COCOAPODS: 1.11.2
