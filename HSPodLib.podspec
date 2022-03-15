@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shuang wang' => 'ny5168@163.com' }
-  s.source           = { :git => 'https://github.com/shuang wang/HSPodLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ny5168ws/NXKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

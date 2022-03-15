@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0011406027E0E2A4004EB410 /* Test.h in Headers */ = {isa = PBXBuildFile; fileRef = 0011405E27E0E2A4004EB410 /* Test.h */; };
+		0011406127E0E2A4004EB410 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 0011405F27E0E2A4004EB410 /* Test.m */; };
 		29E28B76A22E986A140691A8A8D8969C /* HSPodLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E0FF5C23643F6DB50D5E08F2891A0AF /* HSPodLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		33290422F5CF6A104C740B27CC67E8B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6EA4936EC7CCD5B6180C7C2A531D1B16 /* HSPodLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B9CC22A5392B3DBD38850C4D67E324 /* HSPodLib-dummy.m */; };
@@ -27,25 +29,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0011405E27E0E2A4004EB410 /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Test.h; path = HSPodLib/Classes/Test.h; sourceTree = "<group>"; };
+		0011405F27E0E2A4004EB410 /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Test.m; path = HSPodLib/Classes/Test.m; sourceTree = "<group>"; };
 		0D1351C646508AD7D3AC2852F47E9908 /* HSPodLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HSPodLib.modulemap; sourceTree = "<group>"; };
 		13649A005E447A315FB762D4C5A6A1EA /* Pods-HSPodLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSPodLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		19F491E8D2A34D4C521FD7DAD4781396 /* Pods-HSPodLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSPodLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		1C1830E4DE6E50E367B77C29455C7568 /* HSPodLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSPodLib-prefix.pch"; sourceTree = "<group>"; };
 		28C17356D39252E0891DD09C5782A609 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HSPodLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		516D92B312E5473EC07C587E12AB0298 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		516D92B312E5473EC07C587E12AB0298 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		55B9CC22A5392B3DBD38850C4D67E324 /* HSPodLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSPodLib-dummy.m"; sourceTree = "<group>"; };
 		64DBD1FDEF712950BBA3738E687A356D /* Pods-HSPodLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSPodLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		760F4647CB78AEF8C916FFD6C52A58A1 /* HSPodLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HSPodLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		760F4647CB78AEF8C916FFD6C52A58A1 /* HSPodLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HSPodLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		77655989FD5048ED84DAE2D68B19B1F0 /* HSPodLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSPodLib.release.xcconfig; sourceTree = "<group>"; };
 		77E8ABF119A3340D797546ED6E4480DB /* Pods-HSPodLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSPodLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7E0FF5C23643F6DB50D5E08F2891A0AF /* HSPodLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSPodLib-umbrella.h"; sourceTree = "<group>"; };
-		7F40D715CCEBB7D3BC0CAB59B995BA96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7F40D715CCEBB7D3BC0CAB59B995BA96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		811FEA650C53D5910BE3C26BA2C36A5F /* HSPodLib */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HSPodLib; path = HSPodLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D74D036B5A86249F6A0536C64B0FC59 /* Pods-HSPodLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSPodLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		91C176C6BA93202E77AA03794E7BE313 /* Pods-HSPodLib_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-HSPodLib_Tests"; path = Pods_HSPodLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		997F3AB8D8530630C23A96932E011BB1 /* HSPodLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSPodLib.debug.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E7912FD40DCB91680FCFD88476C3CA7 /* HSPodLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HSPodLib-Info.plist"; sourceTree = "<group>"; };
 		C221F0A5D9A690FD38636661D328F0E8 /* Pods-HSPodLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSPodLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		DF8A1A1099A38EDB78A09A43720B92CA /* Pods-HSPodLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSPodLib_Tests.modulemap"; sourceTree = "<group>"; };
@@ -77,6 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				28C17356D39252E0891DD09C5782A609 /* ReplaceMe.m */,
+				0011405E27E0E2A4004EB410 /* Test.h */,
+				0011405F27E0E2A4004EB410 /* Test.m */,
 				ACF805D8654C2CE26F5739BEB498D49B /* Pod */,
 				396E7627BA88DA84B40AB11769AA4591 /* Support Files */,
 			);
@@ -193,6 +199,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0011406027E0E2A4004EB410 /* Test.h in Headers */,
 				29E28B76A22E986A140691A8A8D8969C /* HSPodLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +302,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0011406127E0E2A4004EB410 /* Test.m in Sources */,
 				6EA4936EC7CCD5B6180C7C2A531D1B16 /* HSPodLib-dummy.m in Sources */,
 				D281482A7D3A3DDC08EA035C19887A75 /* ReplaceMe.m in Sources */,
 			);
@@ -367,8 +375,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
